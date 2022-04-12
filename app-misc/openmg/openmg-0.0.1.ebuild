@@ -8,7 +8,7 @@ DESCRIPTION="A free software manga reader."
 HOMEPAGE="https://gitea.sergiotarxz.freemyip.com"
 SRC_URI="https://gitea.sergiotarxz.freemyip.com/sergiotarxz/mangareader/archive/v${PV}.tar.gz -> openmg-$PV.tar.gz"
 
-LICENSE="GPLv3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
