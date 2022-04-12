@@ -7,6 +7,7 @@ inherit meson
 DESCRIPTION="A free software manga reader."
 HOMEPAGE="https://gitea.sergiotarxz.freemyip.com"
 SRC_URI="https://gitea.sergiotarxz.freemyip.com/sergiotarxz/mangareader/archive/v${PV}.tar.gz -> openmg-$PV.tar.gz"
+S="mangareader"
 
 LICENSE="GPL-3"
 SLOT="0"
