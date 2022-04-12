@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 EAPI=8
 
-inherit meson
+inherit meson xdg
 
 DESCRIPTION="A free software manga reader."
 HOMEPAGE="https://gitea.sergiotarxz.freemyip.com"
@@ -33,4 +33,11 @@ src_configure() {
 
 src_install() {
 	meson_src_install
+}
+
+pkg_postinst() {
+	xdg_icon_cache_update
+}
+pkg_postrm () {
+	xdg_icon_cache_update
 }
