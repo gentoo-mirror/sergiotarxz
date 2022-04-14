@@ -25,7 +25,6 @@ RDEPEND="
 	>=gui-libs/libhandy-1.2.0:1=
 	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 )
 	gnome? ( >=gnome-base/gsettings-desktop-schemas-3.18.0 )
-	spell? ( app-text/gspell:= )
 	sys-auth/polkit
 	firmware? ( >=sys-apps/fwupd-1.0.3 )
 	flatpak? (
@@ -60,7 +59,6 @@ src_prepare() {
 src_configure() {
 	local emesonargs=(
 		-Dtests=false #$(meson_use test tests)
-		$(meson_use spell gspell)
 		$(meson_feature gnome gsettings_desktop_schemas) # Honoring of GNOME date format settings.
 		-Dman=true
 		-Dpackagekit=false
