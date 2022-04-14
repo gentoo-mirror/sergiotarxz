@@ -21,7 +21,7 @@ RDEPEND="
 	>=x11-libs/gtk+-3.22.4:3
 	>=dev-libs/glib-2.56:2
 	>=dev-libs/json-glib-1.2.0
-	>=net-libs/libsoup-2.52.0:2.4
+	>=net-libs/libsoup-3.0.0
 	>=gui-libs/libhandy-1.2.0:1=
 	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 )
 	gnome? ( >=gnome-base/gsettings-desktop-schemas-3.18.0 )
