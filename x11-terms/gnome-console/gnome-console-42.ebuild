@@ -19,13 +19,12 @@ KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86 ~
 RDEPEND="
 "
 DEPEND="${RDEPEND}"
-# itstool required for help/* with non-en LINGUAS, see bug #549358
-# xmllint required for glib-compile-resources, see bug #549304
 BDEPEND="
 >=dev-lang/sassc-3.6.2
 >=gui-libs/libhandy-1.5.0
 >=x11-libs/vte-0.67.0
 >=gnome-base/libgtop-2.40.0-r1
+>=gnome-base/gsettings-desktop-schemas-41.0
 "
 
 src_configure() {
