@@ -25,6 +25,7 @@ BDEPEND="
 >=x11-libs/vte-0.67.0
 >=gnome-base/libgtop-2.40.0-r1
 >=gnome-base/gsettings-desktop-schemas-41.0
+nautilus? ( >=gnome-base/nautilus-41.2 )
 "
 
 src_configure() {
