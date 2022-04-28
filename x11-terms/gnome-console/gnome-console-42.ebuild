@@ -7,7 +7,7 @@ inherit gnome.org gnome2-utils meson xdg
 DESCRIPTION="A terminal emulator for GNOME"
 HOMEPAGE="https://apps.gnome.org/app/org.gnome.Console/ https://gitlab.gnome.org/GNOME/console"
 
-SRC_URI="https://gitlab.gnome.org/GNOME/console/-/archive/${PV}.beta/console-${PV}.beta.tar.gz"
+SRC_URI="https://gitlab.gnome.org/GNOME/console/-/archive/${PV}.beta/console-${PV}.beta.tar.gz ${S}"
 
 LICENSE="GPL-3+"
 SLOT="0"
