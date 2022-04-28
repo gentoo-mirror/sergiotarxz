@@ -24,6 +24,7 @@ DEPEND="${RDEPEND}"
 BDEPEND="
 >=dev-lang/sassc-3.6.2
 >=gui-libs/libhandy-1.5.0
+>=x11-libs/vte-0.67.0
 "
 
 src_configure() {
