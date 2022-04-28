@@ -22,10 +22,12 @@ DEPEND="${RDEPEND}"
 # itstool required for help/* with non-en LINGUAS, see bug #549358
 # xmllint required for glib-compile-resources, see bug #549304
 BDEPEND="
+>=dev-lang/sassc-3.6.2
 "
 
 src_configure() {
 	local emesonargs=(
+		-Dsassc=disabled
 		$(meson_use debug devel)
 		$(meson_feature nautilus nautilus)
 	)
