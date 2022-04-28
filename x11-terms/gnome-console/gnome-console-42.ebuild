@@ -23,6 +23,7 @@ DEPEND="${RDEPEND}"
 # xmllint required for glib-compile-resources, see bug #549304
 BDEPEND="
 >=dev-lang/sassc-3.6.2
+>=gui-libs/libhandy-1.5.0
 "
 
 src_configure() {
