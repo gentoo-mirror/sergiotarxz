@@ -17,15 +17,15 @@ IUSE="debug +nautilus"
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux"
 
 RDEPEND="
-"
-DEPEND="${RDEPEND}"
-BDEPEND="
->=dev-lang/sassc-3.6.2
 >=gui-libs/libhandy-1.5.0
 >=x11-libs/vte-0.67.0
 >=gnome-base/libgtop-2.40.0-r1
 >=gnome-base/gsettings-desktop-schemas-41.0
 nautilus? ( >=gnome-base/nautilus-41.2 )
+"
+DEPEND="${RDEPEND}"
+BDEPEND="
+>=dev-lang/sassc-3.6.2
 "
 
 src_configure() {
