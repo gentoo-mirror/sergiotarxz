@@ -14,7 +14,7 @@ if [[ ${PV} == *9999 ]] ; then
 	SRC_URI="https://dev.gentoo.org/~blueness/${PN}/${ISO}"
 	inherit git-r3
 else
-	SRC_URI="https://github.com/sergiotarxz/grss/archive/refs/tags/sergiotarxz-v${PV}.tar.gz -> ${PN}-${PV}
+	SRC_URI="https://github.com/sergiotarxz/grss/archive/refs/tags/sergiotarxz-v${PV}.tar.gz -> $PN-$PV
 	https://dev.gentoo.org/~blueness/${PN}/${ISO}"
 	KEYWORDS="amd64 arm arm64 x86"
 fi
