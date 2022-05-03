@@ -19,7 +19,7 @@ else
 	KEYWORDS="amd64 arm arm64 x86"
 fi
 
-S="grss-sergiotarxz-v$PV"
+S="${WORKDIR}/grss-sergiotarxz-v$PV"
 
 DESCRIPTION="Suite to build Gentoo Reference Systems"
 HOMEPAGE="https://dev.gentoo.org/~blueness/grs"
